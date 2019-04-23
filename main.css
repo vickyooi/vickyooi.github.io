@@ -30,3 +30,19 @@ p{
     color: #ffffff;
     font-size: 2em;
 }
+
+.gallery{
+    margin-top: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item{
+    border: 20px solid #FFF;
+    margin: 40px;
+}
+
+.gallery-item.thumbnail{
+
+}
