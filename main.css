@@ -9,7 +9,7 @@ html, body {
   
   body {
     font-family: 'Cutive Mono', monospace; ;
-    background-image: url('https://image.freepik.com/free-vector/pastel-gradient-low-poly-background_1048-8005.jpg');
+    background-image: url('https://webgradients.com/public/webgradients_png/002%20Night%20Fade.png');
     background-position: center top;
     background-size: cover;
     margin: 0;
@@ -22,7 +22,6 @@ html, body {
   }
   
   .page-description {
-    font-family: 'Courier New', Courier, monospace
     padding: 30px;
     border: 1px solid #000;
     text-align: center;
