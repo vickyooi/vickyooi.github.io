@@ -35,18 +35,16 @@ html, body {
   }
   
   .gallery-item {
-    border: 5px solid #FFF;
-    margin: 20px;
   }
   
   .gallery-item .thumbnail {
-  
+  width: 20rem;
   }
   
   /* FOOTER NAVIGATION */
   
   nav {
-    background-color: #FFF;
+    background-color: rgb(0, 26, 75);
   }
   
   nav li {
@@ -67,7 +65,7 @@ html, body {
   .contact-btn a {
     margin-right: 30px;
     padding: 8px 18px;
-    border: 1px solid #204156;
+    border: 1px solid #FFFFFF;
   
   }
   
@@ -79,7 +77,7 @@ html, body {
   nav a {
     height: 60px;
     line-height: 60px;
-    color: #204156;
+    color: #FFFFFF;
     text-decoration: none;
   }
   
