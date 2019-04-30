@@ -57,23 +57,6 @@ html, body {
     display: inline;
   }
   
-  .contact-btn {
-    float: right;
-  
-  }
-  
-  .contact-btn a {
-    margin-right: 30px;
-    padding: 8px 18px;
-    border: 1px solid #FFFFFF;
-  
-  }
-  
-  .contact-btn a:active {
-    position: relative;
-    bottom: 2px;
-  }
-  
   nav a {
     height: 60px;
     line-height: 60px;
