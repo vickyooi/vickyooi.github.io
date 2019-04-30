@@ -22,6 +22,7 @@ html, body {
   }
   
   .page-description {
+    font-family: 'Cutive Mono', monospace;
     padding: 2rem;
     text-align: center;
     font-size: 1rem;
@@ -30,20 +31,15 @@ html, body {
   }
   
   .gallery {
-    margin-top: 20px;
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   
-  .gallery-item {
-  }
-  
   .gallery-item .thumbnail {
   width: 20rem;
   }
-  
-  /* FOOTER NAVIGATION */
   
   nav {
     background-color: rgb(0, 26, 75);
@@ -62,8 +58,7 @@ html, body {
   }
 
   nav a {
-    height: 60px;
-    line-height: 60px;
+    line-height: 4rem;
     color: #FFFFFF;
     text-decoration: none;
   }
