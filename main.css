@@ -9,6 +9,7 @@ html, body {
   
   body {
     font-family:  'Major Mono Display', monospace;
+    font-family: 'Cutive Mono', monospace; ;
     background-image: url('https://i.pinimg.com/originals/35/63/de/3563deb628aee34aa12c22ff839d4bc0.jpg');
     background-position: center top;
     background-size: cover;
@@ -22,6 +23,7 @@ html, body {
   }
   
   .page-description {
+    font-family: 'Courier New', Courier, monospace
     padding: 30px;
     border: 1px solid #000;
     text-align: center;
