@@ -39,7 +39,7 @@ html, body {
     margin-bottom: 5rem;    
   }
 
-  .project-description {
+  .video-description {
     color: rgb(85, 85, 85);
     padding: 2rem;
     padding-top: 1rem;
@@ -49,16 +49,28 @@ html, body {
     margin-right: 23rem;
     line-height: 1.2rem;
   }
-  
-  .marketing-description {
+
+  .project-description {
     color: rgb(85, 85, 85);
     padding: 2rem;
     padding-top: 1rem;
     text-align: justify;
-    font-size: 1rem;
-    margin-left: 15rem;
+    font-size: .9rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    line-height: 1.2rem;
+  }
+  
+  .marketing-description {
+    color: rgb(85, 85, 85);
+    padding: .5 rem;
+    padding-top: .2rem;
+    text-align: justify;
+    font-size: .9rem;
+    margin-left: 23rem;
     margin-right: 23rem;
     line-height: 1.2rem;
+    font-family: 'Saira', sans-serif;
   }
 
   .video {
@@ -101,6 +113,7 @@ html, body {
     height: 20rem;
     background-color: rgb(40, 40, 40);
     text-align: center;
+    margin-top: 4rem;
   }
 
   .contact-title {
@@ -175,6 +188,8 @@ html, body {
     width:50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .ascenducd {
@@ -185,5 +200,7 @@ html, body {
     width:50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
   }
  
