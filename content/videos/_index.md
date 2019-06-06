@@ -43,7 +43,7 @@
      <iframe class="content-video embed-responsive-item" src="https://player.vimeo.com/video/293658691?title=0&byline=0&portrait=0"  frameborder="0" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen style="align: auto; width: 100%;"></iframe>
 </div>
 <p class="page-description"><b>BUTTON</b> This animation was the first rotoscoping animation I made using Adobe Animate. It was inspired by my nine-year-old bunny name Button. My inspiration for this video came when I was watching a video of Button hopping and realized how agile and detailed a rabbit’s action is. </p>
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-4by3">
     <iframe class="content-video embed-responsive-item" src="https://player.vimeo.com/video/282953322?title=0&byline=0&portrait=0"  frameborder="0" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen style="align: auto; width: 100%;"></iframe>
   </div>
   <p class="page-description"><b>ORANGES AS STOCKING STUFFERS</b> The first video I created for Spoon University, a nationwide 

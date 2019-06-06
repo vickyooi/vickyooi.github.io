@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "archetypes"
+		},
+		{
+			"path": "assets"
+		},
+		{
+			"path": "content"
+		},
+		{
+			"path": "data"
+		},
+		{
+			"path": "layouts"
+		},
+		{
+			"path": "resources"
+		},
+		{
+			"path": "Old/portfolio"
+		}
+	]
+}

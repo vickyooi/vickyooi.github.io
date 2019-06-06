@@ -1,5 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html"><h1>Vicky Ooi</h1></a>
+    <a class="navbar-brand" href="/index.html"><h1>VICKY.OOI</h1>
+        {{ if eq .originPage `home` }} 
+            <span class="sr-only">(current)</span>
+        {{ end }}
+    </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -8,14 +12,14 @@
             <li class="nav-item {{ if eq .originPage `home` }} active {{ end }}">
             {{/*  active means this is the current page  */}}
             {{/*  using ` quotes around "home" because I'm already inside of a quote  */}}
-                <a class="nav-link" href="/index.html">VIDEO
-                    {{ if eq .originPage `home` }} 
-                        <span class="sr-only">(current)</span>
-                    {{ end }}
-                </a>
+            </li>
+         </nav>
                 {{/*  sr-only means that it will only display "(current)" if the person is uing a screenreader  */}}
                 {{/*  /index.html means the path is based on the root folder rather than based on the path relative to the folder in which this HTML file is  */}}
-
+        <nav class="nav-list">
+            <li class="nav-item">
+                    <a class="nav-link" href="/projects/demo-reel/">VIDEO
+                 </a>
             </li>
             <li class="nav-item {{ if eq .originPage `aboutMe` }} active {{ end }}">
                 <a class="nav-link" href="/about-me/">DESIGN

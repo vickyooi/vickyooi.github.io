@@ -153,13 +153,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: rgb(116, 116, 116);
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
+  color: rgb(73, 73, 73);
   text-decoration: underline;
 }
 
@@ -4061,8 +4061,10 @@ input[type="button"].btn-block {
 }
 
 .nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  display: inline;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -6568,7 +6570,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: white !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6940,9 +6942,9 @@ button.bg-dark:focus {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  justify-content: center;
+  width: 25rem;
+  height: 25rem;
   border: 0;
 }
 

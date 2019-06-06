@@ -15,38 +15,45 @@ html, body {
   }
   
   .page-title {
+    color: rgb(129, 2, 23);
     text-align: center;
     font-weight: 100;
     font-size: 2.5rem;
-    color: rgb(129, 2, 23);
     margin-bottom: 1rem;
     margin-top: 3rem;
   }
+
+  a{
+    text-decoration: none;
+    color: rgb(129, 2, 23);
+  }
   
-  .page-description {
+  .about-me {
     background-color: rgb(143, 8, 42);
     color: #FFFFFF;
     font-family: 'Nanum Gothic',sans-serif;
     padding: 2rem;
-    text-align: center;
-    font-size: 1rem;
-    margin-left: 27rem;
-    margin-right: 27rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: left;
+    line-height:1.2rem;
+    font-size: .8rem;
+    margin-left: 40rem;
+    margin-right: 10rem;
+    position: relative;
+    top: 5rem;
+    z-index: 2;
     
   }
   
-  .gallery {
+  .landing-page {
     margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
   }
   
-  .gallery-item .thumbnail {
-  width: 30rem;
+  .page-item .thumbnail {
+  width: 40rem;
+  margin-left: 13%;
+  margin-top: 2rem;
+  position: absolute;
+  z-index: 1;
   }
   
   nav {
@@ -73,14 +80,25 @@ html, body {
   }
 
   .contact {
-    height: 15rem;
-    background-color: rgb(85, 85, 85);
+    margin-top:20rem;
+    height: 20rem;
+    background-color: rgb(40, 40, 40);
     text-align: center;
   }
 
   .contact-title {
-    line-height: 12rem;
+    margin-top: 1rem;
     font-family: 'Barlow', sans-serif;
     color: #FFFFFF;
   }
   
+  .contact-email{
+    color:#FFFFFF
+  }
+
+  .contact .icon {
+    display: inline-block;
+    padding: 0;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
