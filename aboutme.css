@@ -33,15 +33,20 @@ html, body {
     color: #FFFFFF;
     font-family: 'Nanum Gothic',sans-serif;
     padding: 2rem;
-    text-align: left;
+    text-align: center;
     line-height:1.2rem;
     font-size: .8rem;
-    margin-left: 40rem;
-    margin-right: 10rem;
-    position: relative;
     top: 5rem;
     z-index: 2;
-    
+  }
+
+  @media only screen and (min-width: 1025px){
+    .about-me{
+      margin-left: 40rem;
+      margin-right: 10rem;
+      position: relative;
+      text-align: left;
+    }
   }
   
   .landing-page {
@@ -52,8 +57,13 @@ html, body {
   width: 40rem;
   margin-left: 13%;
   margin-top: 2rem;
-  position: absolute;
   z-index: 1;
+  }
+
+  @media only screen and (min-width: 1025px){
+    .page-item .thumbnail{
+      position: absolute;
+    }
   }
   
   nav {

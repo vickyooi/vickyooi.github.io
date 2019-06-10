@@ -34,9 +34,13 @@ html, body {
     padding-top: 1rem;
     text-align: center;
     font-size: 1.5rem;
-    margin-left: 22rem;
-    margin-right: 22rem;
     margin-bottom: 5rem;    
+  }
+  @media only screen and (min-width: 1025px){
+    .demo-reel{
+      margin-left: 22rem;
+      margin-right: 22rem;
+    }
   }
 
   .video-description {
@@ -45,9 +49,13 @@ html, body {
     padding-top: 1rem;
     text-align: justify;
     font-size: .9rem;
-    margin-left: 23rem;
-    margin-right: 23rem;
     line-height: 1.2rem;
+  }
+  @media only screen and (min-width: 1025px){
+    .video-description{
+      margin-left: 23rem;
+      margin-right: 23rem;
+    }
   }
 
   .project-description {
@@ -56,9 +64,13 @@ html, body {
     padding-top: 1rem;
     text-align: justify;
     font-size: .9rem;
-    margin-left: 25rem;
-    margin-right: 25rem;
     line-height: 1.2rem;
+  }
+  @media only screen and (min-width: 1025px){
+    .project-description{
+      margin-left: 25rem;
+      margin-right: 25rem;
+    }
   }
   
   .marketing-description {
@@ -67,10 +79,15 @@ html, body {
     padding-top: .2rem;
     text-align: justify;
     font-size: .9rem;
-    margin-left: 23rem;
-    margin-right: 23rem;
     line-height: 1.2rem;
     font-family: 'Saira', sans-serif;
+  }
+
+  @media only screen and (min-width: 1025px){
+    .marketing-description{
+      margin-left: 23rem;
+      margin-right: 23rem;
+    }
   }
 
   .video {
@@ -143,6 +160,7 @@ html, body {
 
   .elephant{
     margin-top: 2rem;
+    margin-bottom: 5rem;
   }
 
   .elephant .thumbnail{
